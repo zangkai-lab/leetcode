@@ -1,11 +1,11 @@
+from typing import List
 '''
-归类：BFS 只不过在更新的过程中维护一个已知的表格，最后从表格中筛选出来符合条件的坐标
-思考：本质上是搜索算法，只不过是类地图搜索
-注意：为什么要有h,加快运行速度
-反思：用归类的思想解题
+@time: 09月25日
+@question: 秋季杯赛题2
+@analysis: BFS 地图格状结构 字典加速 维护表格后筛选
+@error: 思路
 '''
 
-from typing import List
 class Solution:
     def bicycleYard(self, position: List[int], terrain: List[List[int]], obstacle: List[List[int]]) -> List[List[int]]:
         # 得到场地的长和宽

@@ -1,11 +1,12 @@
-
-'''
-归类：从场馆之间的关系来看，属于图，从逻辑上来看，逐步回溯信息
-其中最重要的逻辑是怎么代换x，就是设立一个矩阵，将x作为1,仅仅计算x的个数，其实含义早已确定
-'''
-
 from typing import List
 import collections
+'''
+@time: 09月25日
+@question: 秋季杯赛题3
+@analysis: 解方程+回溯 图结构+邻接处理
+@error: 思路
+'''
+
 
 class Solution:
     def volunteerDeployment(self, finalCnt: List[int], totalNum: int, edges: List[List[int]], plans: List[List[int]]) -> \

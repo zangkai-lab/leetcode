@@ -1,8 +1,11 @@
-'''
-归类：BFS
-我的错误点在于20、22行，没有判断左右节点是否为空
-'''
 from collections import deque
+'''
+@time: 09月25日
+@question: 秋季杯赛题1
+@analysis: BFS 树结构
+@error: 没有判断左右节点是否为空
+'''
+
 class TreeNode:
     def __init__(self, x):
         self.val = x
