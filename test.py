@@ -6,5 +6,7 @@ import collections
 # cnt['b'] += 1
 # print(cnt)
 
-a = [1,8,9,3,4]
-print(sorted(a))
+s = ""
+s += 'sddff' + ' '
+s += 'ssc' + ' '
+print(s.strip())
